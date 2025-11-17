@@ -1,5 +1,5 @@
 {% set name = "ticker" %}
-{% set version = "5.0.7" %}
+{% set version = "5.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/achannarasappa/ticker/archive/v{{ version }}.tar.gz
-  sha256: 3a53ddf34075ac945cadccd5c0897fe19c574794f41771007bcec9d40e140914
+  sha256: 8c2468d0dcf0c585a43235cabed7c5a404dac20d58c945a03fdf40fb1345f0ac
 
 build:
   number: 0
