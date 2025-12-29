@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: 5.1.0
+  version: "5.2.0"
 
 package:
   name: ticker
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://github.com/achannarasappa/ticker/archive/v${{ version }}.tar.gz
-  sha256: 8c2468d0dcf0c585a43235cabed7c5a404dac20d58c945a03fdf40fb1345f0ac
+  sha256: e2cfb09173cce87cb68c42331a6d4e23f5fd6135980e17c2dd37bfd23432cea3
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
